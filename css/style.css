@@ -24,6 +24,10 @@ a {
     color: white;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -44,11 +48,18 @@ ul {
 }
 
 button {
-    border-radius: 50px;
+    border-radius: 40px;
     padding: 0.5em 1em;
     border: none;
     background-color: white;
     color: #23272A;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+    color: #8EA1E1;
 }
 
 .black-button {
@@ -56,8 +67,18 @@ button {
     color: white;
 }
 
+.black-button:hover {
+    background-color: #36393F;
+    color: white;
+}
+
 .blue-button {
     background-color: #8EA1E1;
+    color: white;
+}
+
+.blue-button:hover {
+    background-color: #a4b7f5;
     color: white;
 }
 
