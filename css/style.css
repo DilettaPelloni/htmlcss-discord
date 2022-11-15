@@ -166,12 +166,13 @@ main > section:nth-of-type(even) {
 /* ------- FOOTER ------- */
 footer {
     background-color: #23272A;
-    padding-top: 50px;
+    padding: 50px 0;
     color: white;
 }
 
-footer > hr {
+footer hr {
     margin: 20px 0;
+    border-color: #8EA1E1;
 }
 
 /* --- FOOTER TOP --- */
@@ -218,11 +219,8 @@ footer h4 {
     font-size: 0.8em;
 }
 
-
-
-
-
 /* --- FOOTER BOTTOM --- */
+
 .footer-bottom {
     padding: 10px 0;
     justify-content: space-between;
