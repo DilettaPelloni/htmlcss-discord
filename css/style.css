@@ -14,6 +14,16 @@ p {
     line-height: 1.5em;
 }
 
+h4 {
+    font-size: 1.5em;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -88,11 +98,6 @@ nav ul {
     align-items: center;
 }
 
-nav a {
-    text-decoration: none;
-    color: white;
-}
-
 /* HEADER BOTTOM */
 .header-bottom {
     padding: 100px 0;
@@ -152,8 +157,6 @@ main > section:nth-of-type(even) {
     padding:25px 35px;
     display: inline-block;
 
-    font-size: 1.5em;
-
     background-image: url('../img/stars.svg');
     background-size: contain;
     background-position: top center;
@@ -163,17 +166,40 @@ main > section:nth-of-type(even) {
 /* ------- FOOTER ------- */
 footer {
     background-color: #23272A;
-    padding-top: 10px;
+    padding-top: 50px;
+    color: white;
 }
 
 footer > hr {
     margin: 20px 0;
 }
 
+/* --- FOOTER TOP --- */
+
+/* SOCIAL BOX */
 .social-box {
     width: calc(100% / 3);
 }
 
+footer h4 {
+    color: #8EA1E1;
+    margin-bottom: 20px;
+}
+
+.language-box {
+    font-size: 0.7em;
+    margin-bottom: 20px;
+}
+
+.language-box img {
+    height: 0.7em;
+}
+
+.social-icons i {
+    margin-right: 15px;
+}
+
+/* LIST BOX */
 .list-box {
     width: calc(100% / 3 * 2); 
 }
@@ -182,11 +208,28 @@ footer > hr {
     width: 25%;
 }
 
+.list-box p {
+    color: #8EA1E1;
+}
+
+.list-box p,
+.list-box li {
+    margin-bottom: 5px;
+    font-size: 0.8em;
+}
+
+
+
+
+
+/* --- FOOTER BOTTOM --- */
 .footer-bottom {
     padding: 10px 0;
     justify-content: space-between;
     align-items: center;
 }
+
+
 
 
 
