@@ -127,9 +127,36 @@ h1 {
 }
 
 /* ------- MAIN ------- */
+/* ONDE */
+.custom-shape-divider-bottom-1668521282 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1668521282 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 52px;
+}
+
+.custom-shape-divider-bottom-1668521282 .shape-fill {
+    fill: #F6F6F6;
+}
+
+main > section:nth-of-type(even) .custom-shape-divider-bottom-1668521282 .shape-fill {
+    fill: white;
+}
+
 /* SEZIONI */
 main > section {
     padding: 100px 0;
+    position: relative;
 }
 
 main > section:nth-of-type(even) {
