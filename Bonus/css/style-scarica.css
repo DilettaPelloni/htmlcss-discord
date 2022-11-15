@@ -214,15 +214,28 @@ main > section:nth-of-type(even) {
     padding-top: 30px;
 }
 
-.text-box h4 {
+.main-bottom .text-box {
+    text-align: center;
+}
+
+.main-bottom .text-box h2 {
     margin-bottom: 20px;
-    padding:25px 35px;
+    padding:25px 45px;
     display: inline-block;
 
     background-image: url('../img/stars.svg');
     background-size: contain;
     background-position: top center;
     background-repeat: no-repeat;
+}
+
+.main-bottom .text-box p {
+    margin-bottom: 20px;
+}
+
+.main-bottom .text-box i {
+    margin-left: 10px;
+    margin-right: 0;
 }
 
 /* ------- FOOTER ------- */
@@ -286,78 +299,3 @@ footer h4 {
     justify-content: space-between;
     align-items: center;
 }
-
-
-
-
-
-
-
-
-
-/* DEBUG */
-.debug header {
-    background-color: lightblue;
-}
-
-.debug header div div,
-.debug header div nav {
-    background-color: goldenrod;
-    border: 1px dashed black;
-}
-
-.debug .header-bottom {
-    background-color: darkblue;
-}
-
-.debug .jumbotron {
-    background-color: #EE82EE;
-    border: 1px dashed black;
-    min-height: 300px;
-    width: 700px;
-}
-
-.debug .text-box,
-.debug .image-box
- {
-    border: 1px dashed black;
-    min-height: 300px;
-}
-
-.debug .image-box {
-    background-color: #1E90FF;
-}
-
-.debug .text-box {
-    background-color: #FFC0CB;
-    border: 1px dashed black;
-}
-
-.debug main section:last-child div div{
-    background-color: green;
-    border: 1px dashed black;
-    min-height: 500px;
-}
-
-.debug .social-box{
-    background-color: #F08080;
-    border: 1px dashed black;
-    min-height: 300px;
-}
-
-.debug .list-box div {
-    background-color: #20B2AA;
-    border: 1px dashed white;
-    min-height: 300px;
-}
-
-.debug .footer-bottom {
-    background-color: #7FFFD4;
-}
-
-.debug .footer-bottom > * {
-    background-color: #FFB6C1;
-    border: 1px dashed black;
-    padding: 5px;
-}
-
