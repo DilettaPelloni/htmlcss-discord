@@ -1,0 +1,182 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* REGOLE GENERALI */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* HEADER */
+.header-top {
+    padding: 15px;
+}
+
+.header-top > * {
+    padding: 5px;
+}
+
+.side-element {
+    width: 20%;
+}
+
+.header-top div:last-child {
+    text-align: right;
+}
+
+nav {
+    width: 60%;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.header-bottom {
+    padding: 30px 0;
+    justify-content: center;
+}
+
+/* ------- MAIN ------- */
+/* SEZIONI */
+main > section {
+    padding: 30px 0;
+}
+
+main > section:nth-of-type(even) {
+    background-color: lightgray;
+}
+
+.image-box {
+    width: 60%;
+}
+
+.text-box {
+    width: 40%;
+}
+
+/* ------- FOOTER ------- */
+footer {
+    background-color: #23272A;
+    padding-top: 10px;
+}
+
+footer > hr {
+    margin: 20px 0;
+}
+
+.social-box {
+    width: calc(100% / 3);
+}
+
+.list-box {
+    width: calc(100% / 3 * 2); 
+}
+
+.list-box div {
+    width: 25%;
+}
+
+.footer-bottom {
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+.debug header {
+    background-color: lightblue;
+}
+
+.debug header div div,
+.debug header div nav {
+    background-color: goldenrod;
+    border: 1px dashed black;
+}
+
+.debug .header-bottom {
+    background-color: darkblue;
+}
+
+.debug .jumbotron {
+    background-color: #EE82EE;
+    border: 1px dashed black;
+    min-height: 300px;
+    width: 700px;
+}
+
+.debug .text-box,
+.debug .image-box
+ {
+    border: 1px dashed black;
+    min-height: 300px;
+}
+
+.debug .image-box {
+    background-color: #1E90FF;
+}
+
+.debug .text-box {
+    background-color: #FFC0CB;
+    border: 1px dashed black;
+}
+
+.debug main section:last-child div div{
+    background-color: green;
+    border: 1px dashed black;
+    min-height: 500px;
+}
+
+.debug .social-box{
+    background-color: #F08080;
+    border: 1px dashed black;
+    min-height: 300px;
+}
+
+.debug .list-box div {
+    background-color: #20B2AA;
+    border: 1px dashed white;
+    min-height: 300px;
+}
+
+.debug .footer-bottom {
+    background-color: #7FFFD4;
+}
+
+.debug .footer-bottom > * {
+    background-color: #FFB6C1;
+    border: 1px dashed black;
+    padding: 5px;
+}
+
