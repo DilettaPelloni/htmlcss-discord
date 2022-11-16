@@ -22,6 +22,7 @@ h4 {
 a {
     text-decoration: none;
     color: white;
+    padding: 10px;
 }
 
 a:hover {
@@ -123,6 +124,8 @@ nav ul {
 .header-bottom {
     padding: 100px 0;
     justify-content: center;
+    align-items: center;
+    min-height: 600px;
 
     background-image: url('../img/jumbo.png');
     background-size: cover;
@@ -145,6 +148,12 @@ h1 {
 .jumbotron p {
     font-size: 1em;
     margin-bottom: 15px;
+}
+
+.jumbotron button i {
+    font-size: 0.8em;
+    margin-right: 5px;
+    
 }
 
 /* ------- MAIN ------- */
